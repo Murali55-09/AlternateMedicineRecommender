@@ -1,0 +1,790 @@
+{
+  "medicines": [
+    {
+      "name": "Paracetamol",
+      "uses": [
+        "fever",
+        "pain",
+        "headache",
+        "arthritis"
+      ],
+      "components": [
+        "acetaminophen"
+      ],
+      "category": "Analgesic",
+      "description": "Common pain reliever and fever reducer"
+    },
+    {
+      "name": "Ibuprofen",
+      "uses": [
+        "pain",
+        "inflammation",
+        "arthritis",
+        "fever"
+      ],
+      "components": [
+        "ibuprofen"
+      ],
+      "category": "NSAID",
+      "description": "Non-steroidal anti-inflammatory drug"
+    },
+    {
+      "name": "Aspirin",
+      "uses": [
+        "pain",
+        "fever",
+        "inflammation",
+        "heart_disease"
+      ],
+      "components": [
+        "acetylsalicylic_acid"
+      ],
+      "category": "NSAID",
+      "description": "Pain reliever with cardiovascular benefits"
+    },
+    {
+      "name": "Amoxicillin",
+      "uses": [
+        "bacterial_infection",
+        "pneumonia",
+        "bronchitis",
+        "urinary_tract_infection"
+      ],
+      "components": [
+        "amoxicillin"
+      ],
+      "category": "Antibiotic",
+      "description": "Broad-spectrum penicillin antibiotic"
+    },
+    {
+      "name": "Azithromycin",
+      "uses": [
+        "bacterial_infection",
+        "pneumonia",
+        "bronchitis",
+        "sinusitis"
+      ],
+      "components": [
+        "azithromycin"
+      ],
+      "category": "Antibiotic",
+      "description": "Macrolide antibiotic"
+    },
+    {
+      "name": "Ciprofloxacin",
+      "uses": [
+        "bacterial_infection",
+        "urinary_tract_infection",
+        "pneumonia"
+      ],
+      "components": [
+        "ciprofloxacin"
+      ],
+      "category": "Antibiotic",
+      "description": "Fluoroquinolone antibiotic"
+    },
+    {
+      "name": "Loratadine",
+      "uses": [
+        "allergies",
+        "hay_fever",
+        "hives",
+        "itching"
+      ],
+      "components": [
+        "loratadine"
+      ],
+      "category": "Antihistamine",
+      "description": "Non-drowsy allergy medication"
+    },
+    {
+      "name": "Cetirizine",
+      "uses": [
+        "allergies",
+        "hay_fever",
+        "hives",
+        "itching"
+      ],
+      "components": [
+        "cetirizine"
+      ],
+      "category": "Antihistamine",
+      "description": "Second-generation antihistamine"
+    },
+    {
+      "name": "Omeprazole",
+      "uses": [
+        "acid_reflux",
+        "ulcers",
+        "heartburn",
+        "GERD"
+      ],
+      "components": [
+        "omeprazole"
+      ],
+      "category": "Proton Pump Inhibitor",
+      "description": "Reduces stomach acid production"
+    },
+    {
+      "name": "Pantoprazole",
+      "uses": [
+        "acid_reflux",
+        "ulcers",
+        "heartburn",
+        "GERD"
+      ],
+      "components": [
+        "pantoprazole"
+      ],
+      "category": "Proton Pump Inhibitor",
+      "description": "Proton pump inhibitor for acid-related conditions"
+    },
+    {
+      "name": "Metformin",
+      "uses": [
+        "diabetes",
+        "type_2_diabetes",
+        "insulin_resistance"
+      ],
+      "components": [
+        "metformin"
+      ],
+      "category": "Antidiabetic",
+      "description": "First-line treatment for type 2 diabetes"
+    },
+    {
+      "name": "Atorvastatin",
+      "uses": [
+        "high_cholesterol",
+        "heart_disease",
+        "cardiovascular_disease"
+      ],
+      "components": [
+        "atorvastatin"
+      ],
+      "category": "Statin",
+      "description": "Lowers cholesterol and reduces cardiovascular risk"
+    },
+    {
+      "name": "Simvastatin",
+      "uses": [
+        "high_cholesterol",
+        "heart_disease",
+        "cardiovascular_disease"
+      ],
+      "components": [
+        "simvastatin"
+      ],
+      "category": "Statin",
+      "description": "HMG-CoA reductase inhibitor for cholesterol"
+    },
+    {
+      "name": "Amlodipine",
+      "uses": [
+        "high_blood_pressure",
+        "hypertension",
+        "angina"
+      ],
+      "components": [
+        "amlodipine"
+      ],
+      "category": "Calcium Channel Blocker",
+      "description": "Treats high blood pressure and chest pain"
+    },
+    {
+      "name": "Losartan",
+      "uses": [
+        "high_blood_pressure",
+        "hypertension",
+        "kidney_disease"
+      ],
+      "components": [
+        "losartan"
+      ],
+      "category": "ARB",
+      "description": "Angiotensin receptor blocker for hypertension"
+    },
+    {
+      "name": "Levothyroxine",
+      "uses": [
+        "hypothyroidism",
+        "thyroid_disorder"
+      ],
+      "components": [
+        "levothyroxine"
+      ],
+      "category": "Thyroid Hormone",
+      "description": "Synthetic thyroid hormone replacement"
+    },
+    {
+      "name": "Sertraline",
+      "uses": [
+        "depression",
+        "anxiety",
+        "panic_disorder",
+        "OCD"
+      ],
+      "components": [
+        "sertraline"
+      ],
+      "category": "SSRI",
+      "description": "Selective serotonin reuptake inhibitor"
+    },
+    {
+      "name": "Fluoxetine",
+      "uses": [
+        "depression",
+        "anxiety",
+        "panic_disorder",
+        "OCD"
+      ],
+      "components": [
+        "fluoxetine"
+      ],
+      "category": "SSRI",
+      "description": "SSRI antidepressant"
+    },
+    {
+      "name": "Albuterol",
+      "uses": [
+        "asthma",
+        "bronchospasm",
+        "COPD"
+      ],
+      "components": [
+        "albuterol"
+      ],
+      "category": "Bronchodilator",
+      "description": "Quick-relief medication for asthma"
+    },
+    {
+      "name": "Salbutamol",
+      "uses": [
+        "asthma",
+        "bronchospasm",
+        "COPD"
+      ],
+      "components": [
+        "salbutamol"
+      ],
+      "category": "Bronchodilator",
+      "description": "Beta-2 agonist for respiratory conditions"
+    },
+    {
+      "name": "Low Dose Aspirin",
+      "uses": [
+        "uses for the temporary relief of minor aches and pains or as recommended by your doctor",
+        "this product will not provide fast relief of headaches or other symptoms needing immediate relief",
+        "because of its delayed action",
+        "ask your doctor about other uses for safety coated 81 mg aspirin"
+      ],
+      "components": [
+        "active ingredient (in each tablet) aspirin 81 mg (nsaid)* *nonsteroidal anti-inflammatory drug"
+      ],
+      "category": "Analgesic",
+      "description": ""
+    },
+    {
+      "name": "Ibuprofen Dye Free",
+      "uses": [
+        "uses temporarily relieves minor aches and pains due to: headache toothache backache menstrual cramps the common cold muscular aches minor pain of arthritis temporarily reduces fever"
+      ],
+      "components": [
+        "active ingredient (in each white tablet) ibuprofen usp, 200 mg (nsaid)* *nonsteroidal anti-inflammatory drug"
+      ],
+      "category": "Analgesic",
+      "description": ""
+    },
+    {
+      "name": "Basic Care Acetaminophen",
+      "uses": [
+        "uses • temporarily relieves minor aches and pains due to: • headache • muscular aches • backache • minor pain of arthritis • the common cold • toothache • premenstrual and menstrual cramps • temporarily reduces fever"
+      ],
+      "components": [
+        "active ingredient (in each caplet) acetaminophen 500 mg"
+      ],
+      "category": "Analgesic",
+      "description": ""
+    },
+    {
+      "name": "Amoxicillin And Clavulanate Potassium",
+      "uses": [
+        "and klebsiella species",
+        "sinusitis - caused by beta‑lactamase–producing isolates of h",
+        "a beta‑lactamase inhibitor indicated for treatment of the following infections in adults and pediatric patients: ( 1 ) lower respiratory tract infections acute bacterial otitis media sinusitis skin and skin structure infections urinary tract infections limitations of use when susceptibility test results show susceptibility to amoxicillin",
+        "klebsiella species",
+        "they should be considered in selecting or modifying antibacterial therapy",
+        "due to susceptible isolates of the designated bacteria in the conditions listed below: lower respiratory tract infections - caused by beta‑lactamase–producing isolates of haemophilus influenzae and moraxella catarrhalis",
+        "local epidemiology and susceptibility patterns may contribute to the empiric selection of therapy",
+        "and enterobacter species",
+        "amoxicillin and clavulanate potassium should be used only to treat or prevent infections that are proven or strongly suspected to be caused by susceptible bacteria",
+        "influenzae and m"
+      ],
+      "components": [
+        "amoxicillin",
+        "clavulanate potassium"
+      ],
+      "category": "Antibiotic",
+      "description": "11 DESCRIPTION Amoxicillin and Clavulanate Potassium is an oral antibacterial combination consisting of amoxicillin and the beta‑lactamase inhibitor, clavulanate potassium (the potassium salt of clavu"
+    },
+    {
+      "name": "Penicillin V Potassium",
+      "uses": [
+        "note: when selecting antibiotics for the prevention of bacterial endocarditis",
+        "including group d (enterococcus)",
+        "note: necessary dental care should be accomplished in infections involving the gum tissue",
+        "the following infections will usually respond to adequate dosage of penicillin v",
+        "pneumococcal infections mild to moderately severe infections of the respiratory tract",
+        "staphylococcal infections– penicillin g-sensitive mild infections of the skin and soft tissues",
+        "sigmoidoscopy",
+        "indicated surgical procedures should be performed",
+        "lower-intestinal tract surgery",
+        "fusospirochetosis (vincent’s gingivitis and pharyngitis) mild to moderately severe infections of the oropharynx usually respond to therapy with oral penicillin"
+      ],
+      "components": [
+        "penicillin v potassium"
+      ],
+      "category": "Analgesic",
+      "description": "DESCRIPTION Penicillin V is the phenoxymethyl analog of penicillin G. Penicillin V potassium is the potassium salt of penicillin V. Penicillin V potassium tablets, for oral administration, contain 250"
+    },
+    {
+      "name": "Cephalexin",
+      "uses": [
+        "6 usage to reduce the development of drug-resistant bacteria and maintain the effectiveness of cephalexin capsules and other antibacterial drugs",
+        "5 genitourinary tract infections cephalexin capsules are indicated for the treatment of genitourinary tract infections",
+        "staphylococcus aureus",
+        "and moraxella catarrhalis",
+        "2 ) skin and skin structure infections ( 1",
+        "local epidemiology and susceptibility patterns may contribute to the empiric selection of therapy",
+        "4 bone infections cephalexin capsules are indicated for the treatment of bone infections caused by susceptible isolates of staphylococcus aureus and proteus mirabilis",
+        "2 otitis media cephalexin capsules are indicated for the treatment of otitis media caused by susceptible isolates of streptococcus pneumoniae",
+        "1 respiratory tract infections cephalexin capsules are indicated for the treatment of respiratory tract infections caused by susceptible isolates of streptococcus pneumoniae and streptococcus pyogenes",
+        "haemophilus influenzae"
+      ],
+      "components": [
+        "cephalexin"
+      ],
+      "category": "Antibiotic",
+      "description": "11 DESCRIPTION Cephalexin capsules, USP is a semisynthetic cephalosporin antibacterial drug intended for oral administration. It is 7-(D-α-Amino-α-phenylacetamido)-3-methyl-3-cephem-4-carboxylic acid "
+    },
+    {
+      "name": "Metformin Hydrochloride",
+      "uses": [
+        "metformin hydrochloride tablets are biguanide indicated as an adjunct to diet and exercise to improve glycemic control in adults and pediatric patients 10 years of age and older with type 2 diabetes mellitus",
+        "1 indications & usage metformin hydrochloride tablets are indicated as an adjunct to diet and exercise to improve glycemic control in adults and pediatric patients 10 years of age and older with type 2 diabetes mellitus",
+        "( 1 )"
+      ],
+      "components": [
+        "metformin hydrochloride"
+      ],
+      "category": "Antidiabetic",
+      "description": "11 DESCRIPTION Metformin hydrochloride tablets, USP contain the antihyperglycemic agent metformin, which is a biguanide, in the form of monohydrochloride. The chemical name of metformin hydrochloride "
+    },
+    {
+      "name": ".Insulin Aspart Protamine And Insulin Aspart",
+      "uses": [
+        "limitations of use: • insulin aspart protamine and insulin aspart mix 70/30 is not recommended for the treatment of diabetic ketoacidosis",
+        "limitations of use: • not recommended for the treatment of diabetic ketoacidosis",
+        "• the proportions of rapid-acting and long-acting insulins are fixed and do not allow for basal versus prandial dose adjustments (1)",
+        "insulin aspart protamine and insulin aspart mix 70/30 is a mixture of insulin aspart protamine",
+        "• the proportions of rapid-acting and long-acting insulins in insulin aspart protamine and insulin aspart mix 70/30 are fixed and do not allow for basal versus prandial dose adjustments",
+        "and insulin aspart",
+        "an intermediate-acting human insulin analog",
+        "1 indications and usage insulin aspart protamine and insulin aspart mix 70/30 is a mixture of insulin aspart protamine and insulin aspart indicated to improve glycemic control in adult patients with diabetes mellitus",
+        "a rapid-acting human insulin analog",
+        "indicated to improve glycemic control in adult patients with diabetes mellitus"
+      ],
+      "components": [
+        "insulin aspart"
+      ],
+      "category": "Antidiabetic",
+      "description": "11 DESCRIPTION Insulin aspart protamine and insulin aspart is a human insulin analog containing 70% insulin aspart protamine crystals and 30% soluble insulin aspart. Insulin aspart is homologous with "
+    },
+    {
+      "name": "Atorvastatin Calcium",
+      "uses": [
+        "hypertriglyceridemia",
+        "as an adjunct to diet to reduce low-density lipoprotein (ldl-c) in: adults with primary hyperlipidemia",
+        "mi and stroke in adults with type 2 diabetes mellitus with multiple risk factors for chd but without clinically evident chd",
+        "non-fatal mi",
+        "or alone if such treatments are unavailable",
+        "adults and pediatric patients aged 10 years and older with heterozygous familial hypercholesterolemia (hefh)",
+        "and angina in adults with multiple risk factors for coronary heart disease (chd) but without clinically evident chd mi and stroke in adults with type 2 diabetes mellitus with multiple risk factors for chd but without clinically evident chd non-fatal mi",
+        "fatal and non-fatal stroke",
+        "as an adjunct to diet for the treatment of adults with: primary dysbetaliproteinemia",
+        "as an adjunct to diet for the treatment of adults with: primary dysbetalipoproteinemia hypertriglyceridemia atorvastatin calcium tablets are an hmg-coa reductase inhibitor (statin) indicated ( 1 ): to reduce the risk of: myocardial infarction (mi)"
+      ],
+      "components": [
+        "atorvastatin calcium trihydrate"
+      ],
+      "category": "Calcium Channel Blocker",
+      "description": "11 DESCRIPTION Atorvastatin is an inhibitor of 3-hydroxy-3-methylglutaryl-coenzyme A (HMG-CoA) reductase. Atorvastatin calcium USP is (βR, δR)-2-(p-fluorophenyl)-β,δ-dihydroxy-5-isopropyl-3-phenyl-4(p"
+    },
+    {
+      "name": "Ezetimibe And Simvastatin",
+      "uses": [
+        "non-fatal myocardial infarction and stroke",
+        "peripheral vascular disease",
+        "an hmg-coa reductase inhibitor (statin) indicated: ( 1 ) as an adjunct to diet to reduce elevated low density lipoprotein cholesterol (ldl-c): in adults with primary hyperlipidemia",
+        "is indicated to reduce the risk of total mortality by reducing risk of coronary heart disease death",
+        "and the need for coronary and non-coronary revascularization procedures in adults with established coronary heart disease",
+        "a dietary cholesterol absorption inhibitor",
+        "and simvastatin",
+        "cerebrovascular disease",
+        "ezetimibe and simvastatin tablets are a combination of ezetimibe",
+        "as an adjunct to other ldl-c-lowering therapies to reduce elevated ldl-c in adults with homozygous familial hypercholesterolemia (hofh)"
+      ],
+      "components": [
+        "simvastatin",
+        "ezetimibe"
+      ],
+      "category": "Antidiabetic",
+      "description": "11 DESCRIPTION Ezetimibe and simvastatin tablets contain ezetimibe USP, a selective inhibitor of intestinal cholesterol and related phytosterol absorption, and simvastatin USP, an HMG-CoA reductase in"
+    },
+    {
+      "name": "Lisinopril And Hydrochlorothiazide",
+      "uses": [
+        "and that available data are insufficient to show that lisinopril does not have a similar risk",
+        "to lower blood pressure",
+        "many patients will require more than 1 drug to achieve blood pressure goals",
+        "control of high blood pressure should be part of comprehensive cardiovascular risk management",
+        "diabetes management",
+        "and not some other pharmacologic property of the drugs",
+        "detection",
+        "particularly in patients with renal impairment or collagen vascular disease",
+        "these benefits have been seen in controlled trials of antihypertensive drugs from a wide variety of pharmacologic classes including lisinopril and hydrochlorothiazide",
+        "antithrombotic therapy"
+      ],
+      "components": [
+        "lisinopril",
+        "hydrochlorothiazide"
+      ],
+      "category": "Calcium Channel Blocker",
+      "description": "DESCRIPTION Lisinopril and hydrochlorothiazide tablets combine an angiotensin converting enzyme inhibitor, lisinopril, and a diuretic, hydrochlorothiazide. Lisinopril, a synthetic peptide derivative, "
+    },
+    {
+      "name": "Amlodipine Besylate",
+      "uses": [
+        "to lower blood pressure",
+        "angiographically documented cad in patients with recently documented cad by angiography and without heart failure or an ejection fraction <40%",
+        "amlodipine besylate tablets may be used alone or in combination with other antihypertensive agents",
+        "control of high blood pressure should be part of comprehensive cardiovascular risk management",
+        "diabetes management",
+        "and not some other pharmacologic property of the drugs",
+        "detection",
+        "amlodipine besylate tablets may be used as monotherapy or in combination with other antianginal agents",
+        "1 hypertension amlodipine besylate tablets are indicated for the treatment of hypertension",
+        "antithrombotic therapy"
+      ],
+      "components": [
+        "amlodipine besylate"
+      ],
+      "category": "Calcium Channel Blocker",
+      "description": "11 DESCRIPTION Amlodipine besylate is the besylate salt of amlodipine, a long-acting calcium channel blocker. Amlodipine besylate is chemically described as 3-Ethyl-5-methyl (±)-2-[(2-aminoethoxy)meth"
+    },
+    {
+      "name": "Losartan Potassium",
+      "uses": [
+        "primarily strokes and myocardial infarction",
+        "2 hypertensive patients with left ventricular hypertrophy losartan potassium tablets are indicated to reduce the risk of stroke in patients with hypertension and left ventricular hypertrophy",
+        "to lower blood pressure",
+        "many patients will require more than 1 drug to achieve blood pressure goals",
+        "to lower blood pressure in adults and children greater than 6 years old",
+        "but there is evidence that this benefit does not apply to black patients [see use in specific populations (8",
+        "control of high blood pressure should be part of comprehensive cardiovascular risk management",
+        "diabetes management",
+        "and not some other pharmacologic property of the drugs",
+        "detection"
+      ],
+      "components": [
+        "losartan potassium"
+      ],
+      "category": "Calcium Channel Blocker",
+      "description": "11 DESCRIPTION Losartan potassium is an angiotensin II receptor blocker acting on the AT 1 receptor subtype. Losartan potassium, a non-peptide molecule, is chemically described as 2-butyl-4-chloro-1-["
+    },
+    {
+      "name": "Metoprolol Tartrate",
+      "uses": [
+        "to lower blood pressure",
+        "many patients will require more than 1 drug to achieve blood pressure goals",
+        "to reduce the risk of cardiovascular mortality when used in conjunction with intravenous metoprolol therapy in patients with definite or suspected acute myocardial infarction in hemodynamically stable patients",
+        "control of high blood pressure should be part of comprehensive cardiovascular risk management",
+        "diabetes management",
+        "detection",
+        "and not some other pharmacologic property of the drugs",
+        "2 angina pectoris metoprolol tartrate tablets are indicated in the long-term treatment of angina pectoris",
+        "lowering blood pressure reduces the risk of fatal and non-fatal cardiovascular events",
+        "primarily strokes and myocardial infarctions"
+      ],
+      "components": [
+        "metoprolol tartrate"
+      ],
+      "category": "Calcium Channel Blocker",
+      "description": "11 DESCRIPTION Metoprolol tartrate tablets, USP contain metoprolol tartrate, a selective beta 1 -adrenoreceptor blocking agent. Metoprolol tartrate is (±)-1-(isopropylamino)-3-[ p -(2-methoxyethyl)phe"
+    },
+    {
+      "name": "Pantoprazole Sodium",
+      "uses": [
+        "1 indications and usage pantoprazole sodium for injection is indicated for treatment of: gastroesophageal reflux disease (gerd) and a history of erosive esophagitis (ee) for up to 10 days in adults",
+        "however",
+        "( 1 )",
+        "limitations of use the safety and effectiveness of pantoprazole sodium for injection for the treatment of upper gastrointestinal bleeding have not been established in adult or pediatric patients",
+        "pediatric use information is approved for pfizer inc",
+        "(pantoprazole sodium) for injection",
+        "pathological hypersecretory conditions including zollinger-ellison (ze) syndrome in adults",
+        "'s protonix® i",
+        "this drug product is not labeled with that information",
+        "( 1 ) pathological hypersecretion conditions including zollinger-ellison (ze) syndrome in adults"
+      ],
+      "components": [
+        "pantoprazole sodium"
+      ],
+      "category": "Proton Pump Inhibitor",
+      "description": "11 DESCRIPTION The active ingredient in Pantoprazole Sodium for Injection, a PPI, is a substituted benzimidazole, sodium 5-(difluoromethoxy)-2-[[(3,4-dimethoxy-2-pyridinyl)methyl] sulfinyl]-1 H -benzi"
+    },
+    {
+      "name": "Ranitidine",
+      "uses": [
+        "use(s) relieves heartburn associated with acid indigestion and sour stomach prevents heartburn associated with acid indigestion and sour stomach brought on by eating or drinking certain foods and beverages"
+      ],
+      "components": [
+        "active ingredient (in each tablet) ranitidine 150 mg (as ranitidine hydrochloride usp, 168 mg)"
+      ],
+      "category": "Proton Pump Inhibitor",
+      "description": ""
+    },
+    {
+      "name": "Famotidine",
+      "uses": [
+        "diagnosed by biopsy",
+        "1 indications and usage famotidine tablets are indicated in adult and pediatric patients 40 kg and greater for the treatment of: • active duodenal ulcer (du)",
+        "• symptomatic nonerosive gastroesophageal reflux disease (gerd)",
+        "• erosive esophagitis due to gerd",
+        "• active gastric ulcer",
+        "• active gastric ulcer (gu)",
+        "famotidine tablets are a histamine-2 (h 2 ) receptor antagonist indicated ( 1 ): in adult and pediatric patients 40 kg and greater for the treatment of: • active duodenal ulcer (du)",
+        "• reduction of the risk of duodenal ulcer recurrence",
+        "zollinger-ellison syndrome",
+        "famotidine tablets are indicated in adults for the: • treatment of pathological hypersecretory conditions (e"
+      ],
+      "components": [
+        "famotidine"
+      ],
+      "category": "Proton Pump Inhibitor",
+      "description": "11 DESCRIPTION The active ingredient in famotidine tablets, USP is a histamine-2 (H 2 ) receptor antagonist. Famotidine is N' -(aminosulfonyl)-3-[[[2-[(diaminomethylene)amino]-4-thiazolyl]methyl] thio"
+    },
+    {
+      "name": "Childrens Cetirizine Hydrochloride Sugar Free Grape",
+      "uses": [
+        "uses temporarily relieves these symptoms due to hay fever or other upper respiratory allergies: runny nose itchy",
+        "watery eyes sneezing itching of the nose or throat"
+      ],
+      "components": [
+        "active ingredient (in each 5 ml) cetirizine hcl 5 mg"
+      ],
+      "category": "Analgesic",
+      "description": ""
+    },
+    {
+      "name": "Diphenhydramine",
+      "uses": [
+        "other than premature infants and neonates",
+        "motion sickness for active treatment of motion sickness",
+        "for the following conditions when the oral form is impractical",
+        "in anaphylaxis as an adjunct to epinephrine and other standard measures after the acute symptoms have been controlled and for other uncomplicated allergic conditions of the immediate type when oral therapy is impossible or contraindicated",
+        "usp is effective in adults and pediatric patients",
+        "antiparkinsonism for use in parkinsonism",
+        "antihistaminic for amelioration of allergic reactions to blood or plasma",
+        "indications and usage diphenhydramine hydrochloride injection",
+        "mild cases of parkinsonism in other age groups and in other cases of parkinsonism in combination with centrally acting anticholinergic agents",
+        "as follows: parkinsonism in the elderly who are unable to tolerate more potent agents"
+      ],
+      "components": [
+        "diphenhydramine hydrochloride"
+      ],
+      "category": "Unknown",
+      "description": "DESCRIPTION Diphenhydramine Hydrochloride Injection, USP is a sterile, nonpyrogenic solution for intravenous or deep intramuscular use as an antihistaminic agent. Each mL contains diphenhydramine hydr"
+    },
+    {
+      "name": "Fexofenadine Hcl",
+      "uses": [
+        "uses reduces hives and relieves itching due to hives (urticaria)",
+        "this product will not prevent hives or an allergic skin reaction from occurring"
+      ],
+      "components": [
+        "active ingredient (in each tablet) fexofenadine hcl usp, 180 mg"
+      ],
+      "category": "Antihistamine",
+      "description": ""
+    },
+    {
+      "name": "Sertraline Hydrochloride",
+      "uses": [
+        "the efficacy of sertraline hydrochloride in the treatment of pmdd was established in 2 placebo-controlled trials of female adult outpatients treated for 3 menstrual cycles who met criteria for the dsm-iiir/iv category of pmdd (see clinical trials under clinical pharmacology )",
+        "avoidance of situations reminiscent of the traumatic event",
+        "and intense psychological distress and physiological reactivity on exposure to cues to the event",
+        "or accelerated heart rate",
+        "(3) trembling or shaking",
+        "the efficacy of sertraline hydrochloride in maintaining an antidepressant response for up to 44 weeks following 8 weeks of open-label acute treatment (52 weeks total) was demonstrated in a placebo-controlled trial",
+        "and persistent anger or irritability",
+        "care should be taken to rule out other cyclical mood disorders that may be exacerbated by treatment with an antidepressant",
+        "(11) fear of dying",
+        "thoughts"
+      ],
+      "components": [
+        "sertraline hydrochloride"
+      ],
+      "category": "Analgesic",
+      "description": "DESCRIPTION Sertraline hydrochloride is a selective serotonin reuptake inhibitor (SSRI) for oral administration. It has a molecular weight of 342.7. Sertraline hydrochloride, USP has the following che"
+    },
+    {
+      "name": "Citalopram",
+      "uses": [
+        "1 indications and usage citalopram tablets are indicated for the treatment of major depressive disorder (mdd) in adults [see clinical studies (14) ]",
+        "citalopram tablets are a selective serotonin reuptake inhibitor (ssri) indicated for the treatment of major depressive disorder (mdd) in adults ( 1 )"
+      ],
+      "components": [
+        "citalopram hydrobromide"
+      ],
+      "category": "Unknown",
+      "description": "11 DESCRIPTION Citalopram tablets, USP contains citalopram, a selective serotonin reuptake inhibitor (SSRI). Citalopram hydrobromide is a racemic bicyclic phthalane structure and is designated (±)-1-("
+    },
+    {
+      "name": "Escitalopram Oral Solution",
+      "uses": [
+        "additional pediatric use information is approved for abbvie inc",
+        "1 indications and usage escitalopram is indicated for the treatment of: major depressive disorder (mdd) in adults and pediatric patients 12 years of age and older",
+        "however",
+        "escitalopram is a selective serotonin reuptake inhibitor (ssri) indicated for the: treatment of major depressive disorder (mdd) in adults and pediatric patients 12 years of age and older ( 1 ) treatment of generalized anxiety disorder (gad) in adults ( 1 )",
+        "’s lexapro (escitalopram) tablets and lexapro (escitalopram) oral solution",
+        "due to abbvie inc",
+        "this drug product is not labeled with that information",
+        "’s marketing exclusivity rights",
+        "generalized anxiety disorder (gad) in adults"
+      ],
+      "components": [
+        "escitalopram oxalate"
+      ],
+      "category": "SSRI",
+      "description": "11 DESCRIPTION Escitalopram Oral Solution, USP contains escitalopram oxalate, an orally administered selective serotonin reuptake inhibitor (SSRI), present as escitalopram oxalate salt. Escitalopram i"
+    },
+    {
+      "name": "Albuterol Sulfate Hfa",
+      "uses": [
+        "2 exercise-induced bronchospasm albuterol sulfate hfa is indicated for the prevention of exercise-induced bronchospasm in adult and pediatric patients aged 4 years and older",
+        "1 ) prevention of exercise-induced bronchospasm in adult and pediatric patients aged 4 years and older",
+        "1 bronchospasm albuterol sulfate hfa inhalation aerosol is indicated for the treatment or prevention of bronchospasm in adult and pediatric patients aged 4 years and older with reversible obstructive airway disease",
+        "1 indications and usage albuterol sulfate hfa is a beta 2 -adrenergic agonist indicated for: treatment or prevention of bronchospasm in adult and pediatric patients aged 4 years and older with reversible obstructive airway disease",
+        "2 ) 1"
+      ],
+      "components": [
+        "albuterol sulfate"
+      ],
+      "category": "Bronchodilator",
+      "description": "11 DESCRIPTION The active component of Albuterol Sulfate HFA is albuterol sulfate, USP, the racemic form of albuterol and a relatively selective beta 2 -adrenergic bronchodilator. Albuterol sulfate ha"
+    },
+    {
+      "name": "Fluticasone Propionate",
+      "uses": [
+        "watery eyes itchy nose runny nose sneezing",
+        "uses temporarily relieves these symptoms of hay fever or other upper respiratory allergies: nasal congestion itchy"
+      ],
+      "components": [
+        "active ingredient (in each spray) fluticasone propionate (glucocorticold) 50 mcg"
+      ],
+      "category": "Analgesic",
+      "description": ""
+    },
+    {
+      "name": "Budesonide",
+      "uses": [
+        "use s temporarily relieves these symptoms of hay fever or other upper respiratory allergies: • nasal congestion • runny nose • itchy nose • sneezing"
+      ],
+      "components": [
+        "active ingredient (in each spray) budesonide (glucocorticoid) 32 mcg"
+      ],
+      "category": "Analgesic",
+      "description": ""
+    },
+    {
+      "name": "Levothyroxine Sodium",
+      "uses": [
+        "including neonates",
+        "tsh) suppression levothyroxine sodium tablets are indicated in adult and pediatric patients",
+        "tsh) suppression: as an adjunct to surgery and radioiodine therapy in the management of thyrotropin-dependent well-differentiated thyroid cancer",
+        "levothyroxine sodium tablets are a l-thyroxine (t4) indicated in adult and pediatric patients",
+        "(1) limitations of use: not indicated for suppression of benign thyroid nodules and nontoxic diffuse goiter in iodine-sufficient patients not indicated for treatment of hypothyroidism during the recovery phase of subacute thyroiditis",
+        "limitations of use: levothyroxine sodium tablets are not indicated for suppression of benign thyroid nodules and nontoxic diffuse goiter in iodine-sufficient patients as there are no clinical benefits and overtreatment with levothyroxine sodium may induce hyperthyroidism [see warnings and precautions (5",
+        "1 indications and usage hypothyroidism levothyroxine sodium tablets are indicated in adult and pediatric patients",
+        "as an adjunct to surgery and radioiodine therapy in the management of thyrotropin-dependent well-differentiated thyroid cancer",
+        "levothyroxine sodium tablets are not indicated for treatment of hypothyroidism during the recovery phase of subacute thyroiditis",
+        "and tertiary (hypothalamic) congenital or acquired hypothyroidism"
+      ],
+      "components": [
+        "levothyroxine sodium"
+      ],
+      "category": "Thyroid Hormone",
+      "description": "11 DESCRIPTION Levothyroxine sodium tablets, USP is L-thyroxine (T4) and contains synthetic crystalline L-3,3’,5,5’-tetraiodothyronine sodium salt. Synthetic T4 is chemically identical to that produce"
+    },
+    {
+      "name": "Synthroid",
+      "uses": [
+        "including neonates",
+        "tsh) suppression: as an adjunct to surgery and radioiodine therapy in the management of thyrotropin-dependent well-differentiated thyroid cancer",
+        "1 indications and usage hypothyroidism synthroid is indicated in adult and pediatric patients",
+        "synthroid is a l-thyroxine (t4) indicated in adult and pediatric patients",
+        "synthroid is not indicated for treatment of hypothyroidism during the recovery phase of subacute thyroiditis",
+        "1 )]",
+        "as an adjunct to surgery and radioiodine therapy in the management of thyrotropin-dependent well-differentiated thyroid cancer",
+        "( 1 ) pituitary thyrotropin (thyroid-stimulating hormone",
+        "limitations of use synthroid is not indicated for suppression of benign thyroid nodules and nontoxic diffuse goiter in iodine-sufficient patients as there are no clinical benefits and overtreatment with synthroid may induce hyperthyroidism [see warnings and precautions ( 5",
+        "and tertiary (hypothalamic) congenital or acquired hypothyroidism"
+      ],
+      "components": [
+        "levothyroxine sodium"
+      ],
+      "category": "Thyroid Hormone",
+      "description": "11 DESCRIPTION SYNTHROID (levothyroxine sodium tablets, USP) is L-thyroxine (T4) and contains synthetic crystalline L-3,3',5,5'-tetraiodothyronine sodium salt. Synthetic T4 is chemically identical to "
+    },
+    {
+      "name": "Prednisone",
+      "uses": [
+        "without uremia",
+        "ophthalmic diseases severe acute and chronic allergic and inflammatory processes involving the eye and its adnexa such as: allergic corneal marginal ulcers herpes zoster ophthalmicus anterior segment inflammation diffuse posterior uveitis and choroiditis sympathetic ophthalmia allergic conjunctivitis keratitis chorioretinitis optic neuritis iritis and iridocyclitis 7",
+        "synthetic analogs may be used in conjunction with mineralocorticoids where applicable",
+        "including juvenile rheumatoid arthritis (selected cases may require low-dose maintenance therapy) ankylosing spondylitis acute and subacute bursitis acute nonspecific tenosynovitis acute gouty arthritis post-traumatic osteoarthritis synovitis of osteoarthritis epicondylitis 3",
+        "miscellaneous tuberculous meningitis with subarachnoid block or impending block when used concurrently with appropriate antituberculous chemotherapy trichinosis with neurologic or myocardial involvement",
+        "nervous system acute exacerbations of multiple sclerosis 13",
+        "of the idiopathic type or that due to lupus erythematosus",
+        "hematologic disorders idiopathic thrombocytopenic purpura in adults secondary thrombocytopenia in adults acquired (autoimmune) hemolytic anemia erythroblastopenia (rbc anemia) congenital (erythroid) hypoplastic anemia 9",
+        "dermatologic diseases pemphigus bullous dermatitis herpetiformis severe erythema multiforme (stevens-johnson syndrome) exfoliative dermatitis mycosis fungoides severe psoriasis severe seborrheic dermatitis 5",
+        "gastrointestinal diseases to tide the patient over a critical period of the disease in: ulcerative colitis regional enteritis 12"
+      ],
+      "components": [
+        "prednisone"
+      ],
+      "category": "Analgesic",
+      "description": "DESCRIPTION Prednisone is a glucocorticoid. Glucocorticoids are adrenocortical steroids, both naturally occurring and synthetic, which are readily absorbed from the gastrointestinal tract. Prednisone,"
+    },
+    {
+      "name": "Ps-2896 Hydrocortisone Cream 1%, 0.9G",
+      "uses": [
+        "psoriasis",
+        "jewelry",
+        "detergents",
+        "and rashes due to eczema",
+        "and anal itching",
+        "inflammation",
+        "use(s) for the temporary relief of itching associated with minor skin irritations",
+        "soaps",
+        "poison ivy",
+        "cosmetics"
+      ],
+      "components": [
+        "active ingredient hydrocortisone usp 1%"
+      ],
+      "category": "NSAID",
+      "description": ""
+    }
+  ]
+}
